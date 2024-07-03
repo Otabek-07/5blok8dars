@@ -1,0 +1,55 @@
+nav {
+    background-color: #171515;
+    padding: 10px 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;                                                                                                                                                                                                    
+}
+
+li {
+    margin: 0 15px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+a:hover {
+    background-color: #575757;
+}
+
+.active{
+    background-color: #575757;
+}
+
+
+
+ul {
+  display: flex;   
+  gap: 100px;   
+  align-items: center; 
+  height: 70px;                                                                                                                                                                                          
+}
+ul h1 {
+    color: red;
+    margin-left: 130px;
+}
+
+input {
+    border: none;
+    outline: none;
+    width: 400px;
+    padding: 5px 10px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 2px;
+}

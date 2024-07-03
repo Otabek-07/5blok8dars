@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.show-container{
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.show-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    max-width: 900px;
+}
+.showImage {
+    width: 100%;
+}
+.showImage img {
+    width: 100%;
+    margin-top: 40px;
+}
+.showContent{
+    color: white;
+    font-size: 16px; 
+    width: 100%;  
+    text-align: center; 
+    margin-top: 60px;
+}
+.show{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;  
+}
+.showContent strong{
+    font-size: 24px;
+    margin: 10px 0;
+    color: crimson;
+}
+.showContent span{
+    font-size: 18px;
+    margin: 10px 0;
+    color: rgb(37, 195, 140);
+    gap: 10px;  
+    width: 500px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.showContent h5{
+    font-size: 20px;
+    margin: 10px 0;
+    color: rgb(166, 195, 37);
+    gap: 5px;  
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.showContent p{
+    font-size: 20px;
+    margin: 10px 0;
+    color: rgb(166, 195, 37);
+    gap: 5px;  
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.showContent a{
+    font-size: 20px;
+    margin: 10px 0;
+    color: rgb(61, 63, 52);
+    gap: 5px;  
+    text-align: center;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+.showContent a:hover{
+    background-color: rgb(61, 63, 52);
+    color: aqua;
+    border: 1px solid rgb(61, 63, 52);
+}

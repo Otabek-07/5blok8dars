@@ -1,0 +1,22 @@
+.auth{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: dodgerblue;
+}
+.auth__container{
+    background-color: white;
+    height: 450px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.auth__container ul{
+    justify-content: space-between;
+}
+.auth__container li{
+    width: 50%;
+    text-align: center;
+}

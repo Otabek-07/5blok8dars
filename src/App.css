@@ -1,0 +1,9 @@
+.container{
+    width: 1350px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.bg{
+    background-color:wheat;
+    height: 100vh;
+}
